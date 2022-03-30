@@ -1,0 +1,185 @@
+.intro{
+    background-color: rgb(43, 40, 40);
+}
+
+.bussinessName{
+    background-color: aquamarine;
+    position:absolute;
+    margin-top: 5px;
+    margin-left: 25px;
+    margin-bottom: 5px;
+    color: grey;
+}
+
+.info{
+    color: aquamarine;
+    padding: 30px;
+    text-align: right;
+    margin: 50px;
+    
+}
+a{
+    color: aquamarine;
+    margin: 10px;
+}
+
+.about{
+    color: brown;
+    border-right: 2px solid black;
+    
+    
+}
+.about-info{
+
+margin-top: 2px;
+height: 10px;
+width: 500px;
+position: relative;
+}
+.message{
+    background-color: aquamarine;
+    position:absolute;
+    margin-top: 5px;
+    margin-left: 25px;
+    margin-bottom: 5px;
+    color: grey;
+    display: block;
+    z-index: 2px;
+    
+}
+.knowledge{
+    background-image: url("https://cdn.educba.com/academy/wp-content/uploads/2019/12/types-of-computer-software.jpg ");
+    position: relative;
+    height: 200px;
+    width: 1500px;
+    margin: 0px;
+}
+.power{
+    position: relative;
+    display: inline;
+    left: 1200px;
+    margin-top: 0px;
+    top: 150px;
+    background-color: aquamarine;
+    color: white;
+}
+.para{
+    /*border-right: 2px solid black;*/
+    margin: 10px;
+    padding: 10px 10px;
+    display: flex;
+    
+    
+}
+.paragr{
+    display: inline-block;
+    padding: 10px 10px;
+    vertical-align: middle;
+    border-left: 2px solid black ;
+}
+.paragr0{
+    color: aquamarine;
+}
+.photo{
+    margin: 30px;
+    padding: 10px 10px;
+    display: flex;
+}
+.work1{
+    border-left: 2px solid black ;
+    padding: 10px 10px;
+}
+.abig{
+    height: 400px;
+    width: 1200px;
+    margin: 50px;
+}
+.bbig{
+    height: 150px;
+    width: 600px;
+    padding: 10px;
+    
+}
+.cbig{
+    height: 150px;
+    width: 600px;
+    padding: 10px;
+}
+.dbig{
+    height: 150px;
+    width: 600px;
+    padding: 10px;
+}
+.ebig{
+    height: 150px;
+    width: 600px;
+    padding: 10px;
+}
+.big{
+    margin: 5px;
+    padding: 2px;
+}
+h3{
+    background-color: aquamarine;
+    position:relative;
+    display: inline;
+    bottom: 100px;
+    left: 100px;
+}
+.end{
+    display: inline-block;
+    padding: 10px 10px;
+    vertical-align: middle;
+    border-right: 2px solid black ;
+    text-align: center;
+}
+.contact-info{
+    text-align: center;
+    color: rgb(43, 42, 42);
+    margin: 5px;
+    
+}
+.best-html{
+    background-color: aquamarine;
+    position:absolute;
+    display: inline;
+    top: 1200px;
+    left: 250px;
+}
+
+.best-js{
+    background-color: aquamarine;
+    position:absolute;
+    display: inline;
+    top:1175px;
+    right: 650px;
+}
+
+.best-node{
+    background-color: aquamarine;
+    position:absolute;
+    display: inline;
+    top: 1350;
+    right: 600px;
+}
+.css-master{
+    background-color: aquamarine;
+    position:absolute;
+    display: inline;
+    top: 1260px;
+    right: 800px;
+}
+/* Tablets - header changes color */
+@media screen and (max-width: 992px) {
+    .intro {
+      background: #772014;
+    }
+  }
+  
+  /* Large smartphones - navbar changes color */
+  @media screen and (max-width: 768px) {
+    body {
+      background-color: #bb8588;
+    }
+  }
+  
